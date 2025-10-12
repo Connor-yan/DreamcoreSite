@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fog City Third Psychiatric Hospital — Project</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="crt project fogcity">
+    <nav class="site">
+        <div class="container inner">
+            <div class="brand"><span class="dot"></span> Connor Wu</div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 背景特效容器：药片/胶囊（JS 渲染） -->
+    <div id="fx-fog" aria-hidden="true"></div>
+
+    <header class="proj-hero">
+        <div class="mist mist-a"></div><div class="mist mist-b"></div>
+        <span class="p-sticker cross"></span>
+        <div class="container">
+            <h1 class="title">Fog City Third Psychiatric Hospital</h1>
+            <p class="kicker">2.5D Games · Dreamcore · Meta</p>
+        </div>
+    </header>
+
+
+    <main class="section">
+        <div class="container proj-body two-col">
+            <section class="content">
+                <h3 class="cap">Overview</h3>
+                <p>Independent 2.5D adventure framed as a “paper-theater” stage. Keeps deliberate distance between player and protagonist to evoke detachment while reading a story.</p>
+
+                <div class="media-block">
+                    <div class="video-wrap fog-frame">
+                        <iframe src="https://www.youtube-nocookie.com/embed/MMgqsvw9JeI?rel=0&modestbranding=1&color=white"
+                                title="Fog City — Video" loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                    </div>
+                    <figcaption class="note">Trailer with muted palette and light mist.</figcaption>
+                </div>
+
+                <h3 class="cap">Notes</h3>
+                <p>“You” woke up in an empty hospital, with all your memories lost. Guided by the NPC “The Sun”, you searched for yourself and learned you had committed suicide here. Fog erodes “The Sun”, splitting it into another persona.</p>
+                <p>Collage UI + stage-like movement enhance distance when “reading a story”. This is an experiment with meta-narrative.</p>
+
+                <!-- Case block -->
+                <div class="case case-fog">
+                    <h3 class="cap">Fog City Third Psychiatric Hospital — 2.5D Visual Development &amp; Prop Design</h3>
+
+                    <h4>Context</h4>
+                    <p>Independent 2.5D adventure framed as a “paper-theater” stage. Keeps deliberate distance between player and protagonist to evoke detachment. Year: 2025.</p>
+
+                    <h4>Action</h4>
+                    <ul>
+                        <li>Prototyped a side-on 2.5D layout with “paper theater” UI: collage panels, cut-out props, and stage-like blocking to control reveal.</li>
+                        <li>Designed narrative beats around amnesia: guidance by the NPC “The Sun,” progressive discovery of self-harm history, and the fog as a corrupting force that splits “The Sun” into another persona.</li>
+                        <li>Built a reusable Unity 2.5D toolset: camera rails, scene cards, prop slots, and timing cues for transitions; documented palette, typography, and prop scale rules.</li>
+                    </ul>
+
+                    <h4>Result</h4>
+                    <ul>
+                        <li>Established a consistent visual language (collage UI + stage motion) that sustains the meta-narrative distance.</li>
+                        <li>Delivered a visual-dev &amp; prop library enabling fast assembly of new scenes while keeping tone control (haze amount, vignette, light temperature).</li>
+                    </ul>
+                </div>
+            </section>
+
+            <aside class="side">
+                <div class="info fog-card">
+                    <dl>
+                        <dt>Role</dt>
+                        <dd>Independent development · Design / Programming / Art integration</dd>
+                        <dt>Tools</dt>
+                        <dd>Unity (2.5D View / Paper Theater UI)</dd>
+                        <dt>Year</dt>
+                        <dd>2025</dd>
+                    </dl>
+                </div>
+
+                <div class="info fog-card">
+                    <h4 class="cap">Portfolio (PDF)</h4>
+                    <a class="btn slim" href="assets/docs/fog-portfolio.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
+                    <div class="pdf-embed">
+                        <iframe src="assets/docs/fog-portfolio.pdf#view=FitH" title="Fog City Portfolio"></iframe>
+                    </div>
+                </div>
+
+                <a class="btn back" href="projects.html">← Back to projects</a>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container"><p>© 2025 Connor Wu</p></div></footer>
+    <div class="overlay-scan"></div><div class="overlay-noise"></div>
+    <script src="assets/main.js"></script>
+</body>
+</html>

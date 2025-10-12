@@ -1,0 +1,102 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dreamcore — Home</title>
+
+    <!-- 站点样式 -->
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+    <!-- 顶部导航（可按需精简） -->
+    <nav class="site">
+        <div class="container inner">
+            <div class="brand"><span class="dot"></span> Connor Wu</div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== 开场首屏：扫描线 + 噪点 + 视差粒子 + 5秒后倾斜的标题 ===== -->
+    <section class="hero" id="landing" style="position:relative;min-height:82vh;display:grid;place-items:center;overflow:hidden;">
+        <!-- 交互粒子画布（星星/气泡/随鼠标视差） -->
+        <canvas id="fxCanvas" aria-hidden="true"></canvas>
+
+        <!-- 标题与引导 -->
+        <div class="container content" style="text-align:center; padding:96px 0; position:relative; z-index:1;">
+            <h1 class="glitch-title reveal"><span>Hello, welcome here...</span></h1>
+            <h2 class="subtitle reveal">
+                I am the host here,Connor Wu.
+            </h2>
+            <h2 class="subtitle reveal">
+                Here, there’s everything about me.
+            </h2>
+            <a href="/about" style="opacity:.85">About →</a>
+            <h2 class="subtitle reveal">
+                Enjoy your journey!
+            </h2>
+
+            <div class="buttons reveal">
+                <a class="btn" href="#highlight">Enter</a>
+            </div>
+
+            <!-- 下滑提示小点 -->
+            <div class="scroll-nudge" aria-hidden="true">
+                <div class="dot"></div>
+                <span>Scroll</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer"><div class="container"><p>© 2025 Connor Wu</p></div></footer>
+
+    <!-- ===== 首页第二屏：高亮占位（后续可替换为真实项目卡片） ===== -->
+    <section class="section" id="highlight">
+        <div class="container">
+            <h2 class="reveal">Highlights</h2>
+            <div class="grid">
+                <div class="card reveal">
+                    <div class="thumb"></div>
+                    <div class="pad">
+                        <h3>Pool Corridor</h3>
+                        <p class="meta">Unity HDRP · Loop · Underwater volumetrics</p>
+                    </div>
+                </div>
+                <div class="card reveal">
+                    <div class="thumb"></div>
+                    <div class="pad">
+                        <h3>White Swing Room</h3>
+                        <p class="meta">UE5 · First-person · Gesture</p>
+                    </div>
+                </div>
+                <div class="card reveal">
+                    <div class="thumb"></div>
+                    <div class="pad">
+                        <h3>Train Dream</h3>
+                        <p class="meta">VFX Graph · Fog · Flowers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <p>© 2025 Connor Wu · Built with HTML/CSS/JS</p>
+            <p><a href="mailto:you@example.com">Email</a> · <a href="https://connor.itch.io/">Itch.io</a> · <a href="https://www.linkedin.com/">LinkedIn</a></p>
+        </div>
+    </footer>
+
+    <!-- 全局叠加：扫描线 + 噪点 -->
+    <div class="overlay-scan"></div>
+    <div class="overlay-noise"></div>
+
+    <!-- 站点脚本（注意路径与你的结构一致：assets/main.js） -->
+    <script src="assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\index1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\assets\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\assets\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "about.html",
+              "DocumentMoniker": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\about.html",
+              "RelativeDocumentMoniker": "about.html",
+              "ToolTip": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\about.html",
+              "RelativeToolTip": "about.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-06T06:46:08.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "projects.html",
+              "DocumentMoniker": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\projects.html",
+              "RelativeDocumentMoniker": "projects.html",
+              "ToolTip": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\projects.html",
+              "RelativeToolTip": "projects.html",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-06T06:45:45.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-06T06:43:09.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\assets\\styles.css",
+              "RelativeDocumentMoniker": "assets\\styles.css",
+              "ToolTip": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\assets\\styles.css",
+              "RelativeToolTip": "assets\\styles.css",
+              "ViewState": "AgIAADIBAAAAAAAAAAAqwFwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-05T18:50:04.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\assets\\main.js",
+              "RelativeDocumentMoniker": "assets\\main.js",
+              "ToolTip": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\assets\\main.js",
+              "RelativeToolTip": "assets\\main.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-05T18:49:11.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index1.html",
+              "DocumentMoniker": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\index1.html",
+              "RelativeDocumentMoniker": "index1.html",
+              "ToolTip": "D:\\\u7B2C\u4E09\u5B66\u671F\\Portfolio\\DreamcoreSite\\index1.html",
+              "RelativeToolTip": "index1.html",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-05T18:11:21.942Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

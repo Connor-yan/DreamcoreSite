@@ -1,0 +1,73 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dreamcore — Landing</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <nav class="site">
+        <div class="container inner">
+            <div class="brand"><span class="dot"></span> Connor Wu</div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 开场：像素电视雪花 + 单行背景大标题 + 文案全部 h2 -->
+    <section class="hero" id="landing" style="position:relative;min-height:82vh;display:grid;place-items:center;overflow:hidden;">
+        <!-- 电视雪花（像素噪点/故障条） -->
+        <canvas id="fxCanvas" aria-hidden="true" style="image-rendering: pixelated;"></canvas>
+
+        <!-- 单行大标题（只一行，5s 后轻微倾斜） -->
+        <h1 class="glitch-title" aria-hidden="true"
+            style="position:absolute; top:10vh; left:50%; transform:translateX(-50%); opacity:.28; z-index:0; white-space:nowrap;">
+            <span>Hello, welcome here...</span>
+        </h1>
+
+        <!-- 正文（全部 h2） -->
+        <div class="container content" style="text-align:center; padding: 96px 0; position:relative; z-index:1;">
+            <h2 class="reveal" style="margin-bottom:18px;">I am the host here, Connor Wu.</h2>
+            <h2 class="reveal" style="margin-bottom:18px;">Here, there’s everything about me.</h2>
+
+            <p class="reveal" style="margin: 10px 0 36px;">
+                <a href="about.html" class="about-link">About →</a>
+            </p>
+
+            <h2 class="reveal" style="margin-bottom:18px;">Enjoy your journey!</h2>
+
+            <!-- Enter 用 div（按钮交互） -->
+            <div class="btn reveal" id="enterBtn" role="button" tabindex="0" style="display:inline-flex; margin-top:6px;">
+                Enter
+            </div>
+
+            <div class="scroll-nudge" aria-hidden="true">
+                <div class="dot"></div><span>Scroll</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer"><div class="container"><p>© 2025 Connor Wu</p></div></footer>
+
+    <!-- 扫描线 + 噪点覆盖层 -->
+    <div class="overlay-scan"></div>
+    <div class="overlay-noise"></div>
+
+    <script src="assets/main.js"></script>
+    <script>
+        // 让 <div id="enterBtn"> 像按钮一样可点击/回车进入 projects
+        (function () {
+            const btn = document.getElementById('enterBtn');
+            if (!btn) return;
+            const go = () => location.href = "projects.html";
+            btn.addEventListener('click', go);
+            btn.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') go(); });
+        })();
+    </script>
+</body>
+</html>

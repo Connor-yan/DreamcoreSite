@@ -1,0 +1,197 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About — Connor Wu</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="crt about dreamcore">
+    <nav class="site">
+        <div class="container inner">
+            <div class="brand">
+                <img src="assets/images/avatar.jpg" alt="" class="nav-avatar" />
+                <span class="dot"></span> Connor Wu
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="showreel.html">Showreel</a>
+                <a href="about.html" class="active">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 边缘贴纸 -->
+    <div id="rw-deco" aria-hidden="true"></div>
+
+    <header class="ab-hero">
+        <div class="ab-window">
+            <div class="ab-titlebar">
+                <div class="ab-dots"><i></i><i></i><i></i></div>
+                <h1>/about</h1>
+                <div class="ab-right">Last updated: 2025</div>
+            </div>
+            <p class="ab-sub">Micro-Bio is the default setting; click the upper-right button to switch to Standard-Bio (your choice will be remembered).</p>
+</div>
+    </header>
+
+    <!-- Showreel 通道 -->
+    <div class="portal-wrap">
+        <a class="portal-link" href="showreel.html" title="Open showreel">
+            <span class="p-core"></span><span class="p-ring"></span><span class="p-ring r2"></span>
+            <span class="p-label">Showreel</span>
+        </a>
+    </div>
+
+    <main class="section">
+        <div class="container ab-body two-col">
+            <!-- 左侧：复古聊天框 -->
+            <section class="content">
+                <div class="chat-window">
+                    <!-- 标题栏：头像可自然放大 -->
+                    <div class="chat-titlebar">
+                        <div class="chat-left">
+                            <div class="chat-avatar-wrap" id="avatarWrap">
+                                <img src="assets/images/avatar.jpg" alt="Connor avatar" class="chat-avatar chat-avatar--lg" id="avatarBtn">
+                            </div>
+                            <div class="chat-meta">
+                                <strong class="chat-name">Connor Wu</strong>
+                                <span class="chat-status">online · dreamcore/poolcore</span>
+                            </div>
+                        </div>
+                        <div class="chat-actions">
+                            <button class="chat-dot red" aria-label="Close"></button>
+                            <button class="chat-dot yellow" aria-label="Minimize"></button>
+                            <button class="chat-dot green" aria-label="Maximize"></button>
+                            <button class="btn ghost tiny bio-toggle" data-target="std" title="Switch to Standard-Bio">EN ▸</button>
+                        </div>
+                    </div>
+
+                    <!-- 聊天内容 -->
+                    <div class="chat-body">
+                        <!-- Micro（默认） -->
+                        <div class="thread" id="threadMicro">
+                            <div class="msg bot">
+                                <div class="bubble">
+                                    <div class="bubble-head">My_bio · Micro-Bio</div>
+                                    <p>RMIT MAGI graduate student crafting dreamcore/poolcore experiences across Unity. Building the meta-horror walking sim <em>Dream No More</em> and a 2D ink-wash short, exploring memory, regret, and sacred ritual. Open to junior gameplay/tech-art roles and select animation freelance.</p>
+                                </div>
+                                <div class="time">00:01</div>
+                            </div>
+                            <div class="msg me">
+                                <div class="bubble"><p>Click EN ▸ for full Standard-Bio.</p></div>
+                                <div class="time">00:02</div>
+                            </div>
+                        </div>
+
+                        <!-- Standard -->
+                        <div class="thread is-hidden" id="threadStd" aria-hidden="true">
+                            <div class="msg bot">
+                                <div class="bubble">
+                                    <div class="bubble-head">Standard-Bio · The Hoo</div>
+                                    <p>I’m Connor Wu, a game designer/animator exploring slow-burn, atmospheric storytelling without jumpscares. I build surreal, memory-like spaces that blend level design, interaction, and motion to evoke dreamcore and poolcore sensibilities.</p>
+                                </div><div class="time">00:03</div>
+                            </div>
+                            <div class="msg bot">
+                                <div class="bubble">
+                                    <div class="bubble-head">The Philosophy & Skills</div>
+                                    <p>My practice treats environment and interaction as narrative: light, sound, and small mechanics become the “voice.” Technically, I work in Unity HDRP (C#, VFX Graph), prototyping with TouchDesigner and MediaPipe for gesture and audio-reactive systems. For 2D, I animate with CSP/AE in a watercolor/ink style, guided by timing and performance. I enjoy turning abstract aesthetics into clear, reproducible pipelines.</p>
+                                </div><div class="time">00:04</div>
+                            </div>
+                            <div class="msg bot">
+                                <div class="bubble">
+                                    <div class="bubble-head">The Proof</div>
+                                    <p>Current projects include <em>Dream No More</em>, a meta walking simulator about loops, memory, and depression, featuring a swing interaction, poolcore corridors, and hand-gesture gates. In parallel, <em>DaFeng</em> is a 2D film study inspired by Nuo ritual dance—combining bird symbolism, inheritance, and gentle myth.</p>
+                                </div><div class="time">00:05</div>
+                            </div>
+                            <div class="msg bot">
+                                <div class="bubble">
+                                    <div class="bubble-head">The Future</div>
+                                    <p>I’m seeking junior gameplay/technical-artist roles or studio internships where I can prototype mechanics and mood. Let’s collaborate on experiences that feel like memories—quiet, uncanny, and kind.</p>
+                                </div><div class="time">00:06</div>
+                            </div>
+                            <div class="msg me"><div class="bubble"><p>Back to Micro? Click ◂ CN</p></div><div class="time">00:07</div></div>
+                        </div>
+
+                        <!-- 打字指示 -->
+                        <div class="typing is-hidden" id="typing"><span></span><span></span><span></span></div>
+                    </div>
+
+                    <!-- 底部工具条：切换 + 彩蛋 -->
+                    <div class="chat-toolbar">
+                        <div class="left">
+                            <button class="btn ghost tiny bio-toggle" data-target="micro">◂ CN</button>
+                            <button class="btn ghost tiny bio-toggle" data-target="std">EN ▸</button>
+                        </div>
+                        <div class="right">
+                            <button class="btn ghost tiny egg" data-act="call">🔔 Incoming</button>
+                            <button class="btn ghost tiny egg" data-act="shake">💥 Shake</button>
+                            <button class="btn ghost tiny egg" data-act="toast">💬 Toast</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 右侧：联系方式 + 简历 -->
+            <aside class="side">
+                <div class="info card oldweb">
+                    <h3 class="cap">Contact</h3>
+                    <ul class="links-list">
+                        <li>
+                            <span class="lab">Email</span>
+                            <a href="mailto:yanbeihuan@gamil.com">yanbeihuan@gamil.com</a>
+                        </li>
+                        <li>
+                            <span class="lab">itch.io</span>
+                            <a href="https://connorwu.itch.io/" target="_blank" rel="noopener">connorwu.itch.io</a>
+                        </li>
+                        <li>
+                            <span class="lab">小红书</span>
+                            <a href="https://www.xiaohongshu.com/user/profile/5e31c1f80000000001001bdb?exSource=" target="_blank" rel="noopener">我的小红书</a>
+                        </li>
+                        <li>
+                            <span class="lab">LinkedIn</span>
+                            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">linkedin.com</a>
+                        </li>
+                        <li>
+                            <span class="lab">GitHub</span>
+                            <a href="https://github.com/Connor-yan" target="_blank" rel="noopener">Connor-yan</a>
+                        </li>
+                    </ul>
+                    <a class="btn wide" href="assets/docs/ConnorWu_Resume.pdf" target="_blank" rel="noopener">Open Résumé (PDF)</a>
+                </div>
+
+                <div class="info card tip">
+                    <p>Tip: EN/CN choice will be remembered.</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container"><p>© 2025 Connor Wu</p></div></footer>
+
+    <!-- 来电提示条 -->
+    <div id="callBanner" class="call-banner" aria-hidden="true">
+        <div class="cb-left">📞 Incoming call… <em>MSN Gateway</em></div>
+        <div class="cb-right">
+            <button class="btn tiny accept">Accept</button>
+            <button class="btn tiny decline">Decline</button>
+        </div>
+    </div>
+
+    <!-- MSN 托盘弹窗 -->
+    <div id="msnToast" class="msn-toast" aria-hidden="true">
+        <div class="mt-title"><span class="dot"></span> MSN Messenger</div>
+        <div class="mt-body">New message: “Welcome back, Connor.”</div>
+    </div>
+
+    <!-- 自然放大的头像蒙层（同一个节点，不是新页面弹窗） -->
+    <div id="avatarBackdrop" class="avatar-backdrop" aria-hidden="true"></div>
+
+    <div class="overlay-scan"></div>
+    <div class="overlay-noise"></div>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>

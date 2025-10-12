@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Showreel — Connor Wu</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="crt showreel dreamcore">
+    <nav class="site">
+        <div class="container inner">
+            <div class="brand"><span class="dot"></span> Connor Wu</div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="showreel.html" class="active">Showreel</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 背景贴纸（沿边缘漂浮） -->
+    <div id="rw-deco" aria-hidden="true"></div>
+
+    <!-- 顶部细滚动带：VHS风味 -->
+    <div class="sr-ticker" aria-hidden="true">
+        <div class="sr-track">
+            <span>POOLCORE • SHOWREEL • LIMINAL • Y2K • DREAM ARCHIVE •</span>
+            <span>POOLCORE • SHOWREEL • LIMINAL • Y2K • DREAM ARCHIVE •</span>
+            <span>POOLCORE • SHOWREEL • LIMINAL • Y2K • DREAM ARCHIVE •</span>
+        </div>
+    </div>
+
+    <header class="sr-hero">
+        <div class="pool-tiles-bg"></div>
+        <div class="sr-caustics"></div>
+        <div class="sr-vhs-glow"></div>
+        <div class="container">
+            <h1 class="sr-title">/showreel</h1>
+            <p class="sr-sub">Selected works • dreamcore · animation · game</p>
+            <div class="sr-badges">
+                <span>2024–2025</span><span>2D · 3D · UE/Unity</span><span>60–120s cut</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container sr-body">
+
+            <!-- 播放器 -->
+            <section class="sr-player pool-surface" id="srPlayer">
+                <!-- HUD -->
+                <div class="vhs-hud">
+                    <span class="rec"><i></i> REC</span>
+                    <span class="tc" id="hudTime">00:00</span>
+                    <span class="icon">▶︎</span>
+                </div>
+
+                <!-- YouTube（替换 ID），或注释掉换本地 video -->
+                <iframe class="sr-yt"
+                        src="https://www.youtube-nocookie.com/embed/REPLACE_YOUTUBE_ID?enablejsapi=1&rel=0&modestbranding=1&color=white"
+                        title="Showreel" loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                <!-- 本地兜底 -->
+                <!-- <video class="sr-local" src="assets/videos/showreel.mp4" poster="assets/images/showreel-poster.jpg" controls playsinline></video> -->
+                <!-- 叠加层：扫描线/噪点/水波 -->
+                <div class="sr-overlay-scan"></div>
+                <div class="sr-overlay-noise"></div>
+                <div class="sr-waterlight"></div>
+
+                <!-- 池核贴纸 -->
+                <span class="sr-sticker ring"></span>
+                <span class="sr-sticker bubble"></span>
+            </section>
+
+            <!-- 复古控制条 -->
+            <div class="sr-controls">
+                <button class="c-btn" data-act="play">▶︎ Play / Pause (K/Space)</button>
+                <button class="c-btn" data-act="mute">🔇 Mute (M)</button>
+                <button class="c-btn" data-act="aspect">∷ Aspect 16:9 / 2.39:1 (A)</button>
+                <button class="c-btn" data-act="crt">▦ CRT Mask (C)</button>
+            </div>
+
+            <!-- 章节 -->
+            <ul class="sr-chapters">
+                <li data-t="0">00:00 Intro / logo</li>
+                <li data-t="12">00:12 2D · DaFeng</li>
+                <li data-t="28">00:28 3D · Dream no more</li>
+                <li data-t="44">00:44 2.5D · Fog City</li>
+                <li data-t="58">00:58 Outro</li>
+            </ul>
+
+            <!-- 缩略图墙 -->
+            <section class="sr-thumbs">
+                <figure><img src="assets/images/dafeng-thumb.jpg" alt=""><figcaption>DaFeng</figcaption></figure>
+                <figure><img src="assets/images/dream-thumb.jpg" alt=""><figcaption>Dream no more</figcaption></figure>
+                <figure><img src="assets/images/fog-thumb.jpg" alt=""><figcaption>Fog City</figcaption></figure>
+            </section>
+
+            <div class="sr-cta">
+                <a class="btn" href="projects.html">← Back to Projects</a>
+                <a class="btn ghost" href="assets/docs/portfolio.pdf" target="_blank" rel="noopener">Full portfolio (PDF)</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container"><p>© 2025 Connor Wu</p></div></footer>
+
+    <div class="overlay-scan"></div>
+    <div class="overlay-noise"></div>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>

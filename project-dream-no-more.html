@@ -1,0 +1,95 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dream no more — Project</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="crt project dreampool">
+    <nav class="site">
+        <div class="container inner">
+            <div class="brand"><span class="dot"></span> Connor Wu</div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 背景特效容器：气泡 + 弹窗（JS 渲染） -->
+    <div id="fx-pool" aria-hidden="true"></div>
+
+    <header class="proj-hero">
+        <div class="waterglow"></div><div class="pool-tiles"></div>
+        <span class="p-sticker ring"></span><span class="p-sticker bubble"></span>
+        <div class="container">
+            <h1 class="title">Dream no more</h1>
+            <p class="kicker">3D Game · Walking simulator · Dreamcore</p>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container proj-body two-col">
+            <section class="content">
+                <h3 class="cap">Overview</h3>
+                <p>A first-person wandering game through liminal rooms, pool-blue corridors and empty stairwells where time feels stalled. Fragments of text and sound gradually form a memory about letting go.</p>
+
+                <div class="media-block">
+                    <div class="video-wrap pool-frame">
+                        <div class="placeholder">
+                            <span>No video yet</span>
+                            <small>Drop a YouTube link later and I’ll embed it.</small>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="cap">Notes</h3>
+                <p>Spaces are built to feel “purposeful yet purposeless”: signage without direction, doors without rooms. Palette oscillates between cyan and lilac to echo dreamcore screenshots. There is no fail state—only the quiet end of a corridor.</p>
+
+                <!-- Case block -->
+                <div class="case case-pool">
+                    <h3 class="cap">Dream No More — Meta Walking Simulator (UE5 / Unity HDRP)</h3>
+
+                    <h4>Context</h4>
+                    <p>RMIT research project exploring a slow-burn, non-jumpscare approach to horror through dreamcore/poolcore aesthetics. Goal: tell story through space, light, and micro-interactions rather than dialogue.</p>
+
+                    <h4>Action</h4>
+                    <ul>
+                        <li>Built three playable prototypes in UE5: a white “swing room,” a looping pool corridor, and a suburban forced-perspective house. Implemented Blueprint level logic and portal progression.</li>
+                        <li>Designed core interactions: hand-push swing and proximity-revealed door prompts (F) leading to seamless transitions; kept keyboard fallbacks and left hooks for MediaPipe gestures and TouchDesigner audio reactivity.</li>
+                        <li>Established a unified look pipeline using HDRP/Post (SSGI, bloom, fog) and documented reusable templates for gates, loops, and atmosphere timing.</li>
+                        <li>Ran weekly iteration cycles with mentor feedback; maintained naming conventions and a small art/tech bible for repeatability.</li>
+                    </ul>
+
+                    <h4>Result</h4>
+                    <ul>
+                        <li>Delivered a stable first-person prototype set achieving the intended “quiet pressure” mood.</li>
+                        <li>Shipped a reusable technical/art baseline (gesture/audio interfaces, portal prefab, loop pattern) that accelerates future levels and showcases well in coursework demos.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <aside class="side">
+                <div class="info pool-card">
+                    <dl>
+                        <dt>Role</dt>
+                        <dd>Independent development · Design / Level · Lighting</dd>
+                        <dt>Tools</dt>
+                        <dd>Unity (URP/HDRP) · ProBuilder · Timeline · Custom post</dd>
+                        <dt>Year</dt>
+                        <dd>2024–2025</dd>
+                    </dl>
+                </div>
+
+                <a class="btn back" href="projects.html">← Back to projects</a>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container"><p>© 2025 Connor Wu</p></div></footer>
+    <div class="overlay-scan"></div><div class="overlay-noise"></div>
+    <script src="assets/main.js"></script>
+</body>
+</html>

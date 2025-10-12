@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projects — Connor Wu</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="crt projects retroweb dreamcore">
+    <nav class="site">
+        <div class="container inner">
+            <div class="brand"><span class="dot"></span> Connor Wu</div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="rw-head">
+        <div class="rw-wrap">
+            <div class="rw-titlebar">
+                <div class="rw-led"></div>
+                <h1>/portfolio/projects</h1>
+                <div class="rw-right">Last updated: 2025</div>
+            </div>
+            <p class="rw-sub">Old-web layout • dreamcore background • floating stickers around the edges.</p>
+        </div>
+    </header>
+
+    <div class="portal-wrap">
+        <a class="portal-link" href="showreel.html" title="Open showreel">
+            <span class="p-core"></span>
+            <span class="p-ring"></span>
+            <span class="p-ring r2"></span>
+            <span class="p-label">Showreel</span>
+        </a>
+    </div>
+    <!-- 全屏贴纸（JS 注入） -->
+    <div id="rw-deco" aria-hidden="true"></div>
+
+    <!-- 底部滚动横幅 -->
+    <div class="rw-marquee" aria-hidden="true">
+        <div class="track">
+            <span>＊ DREAMCORE ARCHIVE ＊ PORTFOLIO PROJECTS ＊ LIMINAL • Y2K • OLD-WEB ＊ </span>
+            <span>＊ DREAMCORE ARCHIVE ＊ PORTFOLIO PROJECTS ＊ LIMINAL • Y2K • OLD-WEB ＊ </span>
+            <span>＊ DREAMCORE ARCHIVE ＊ PORTFOLIO PROJECTS ＊ LIMINAL • Y2K • OLD-WEB ＊ </span>
+        </div>
+    </div>
+
+    <!-- Under Construction 开关 -->
+    <button class="uc-toggle" type="button" aria-controls="uc-badge" aria-expanded="false" title="Toggle Under Construction">🚧</button>
+    <div id="uc-badge" class="uc-badge" role="dialog" aria-modal="false" aria-label="Under Construction">
+        <button class="uc-close" type="button" title="Close">✕</button>
+        <div class="stripe"></div><div class="stripe"></div><div class="stripe"></div>
+        <span>UNDER&nbsp;CONSTRUCTION</span>
+    </div>
+
+    <main class="rw-main">
+        <div class="rw-wrap">
+            <!-- DaFeng：赭金 / 岩彩 -->
+            <article class="rw-box is-dafeng">
+                <a class="rw-h2" href="project-dafeng.html">DaFeng</a>
+                <div class="rw-box-body">
+                    <a class="rw-thumb" href="project-dafeng.html" style="background-image:url('assets/images/dafeng-thumb.jpg')"></a>
+                    <div class="rw-txt">
+                        <p class="rw-meta">2D Animation • Nuo Operate • Life &amp; Death</p>
+                        <p>A frame-by-frame ritual animation exploring the boundary between life and death through Nuo folk symbols.</p>
+                        <div class="rw-tags"><span>2D Animation</span><span>Nuo Operate</span><span>Life &amp; Death</span></div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Dream no more：水蓝 / 梦核 -->
+            <article class="rw-box is-dream">
+                <a class="rw-h2" href="project-dream-no-more.html">Dream no more</a>
+                <div class="rw-box-body">
+                    <a class="rw-thumb" href="project-dream-no-more.html" style="background-image:url('assets/images/dream-thumb.jpg')"></a>
+                    <div class="rw-txt">
+                        <p class="rw-meta">3D Game • Walking simulator • Dreamcore</p>
+                        <p>A liminal walking game about losing and rebuilding self among pool-blue corridors and empty stairwells.</p>
+                        <div class="rw-tags"><span>3D Game</span><span>Walking simulator</span><span>Dreamcore</span></div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Fog City：医疗蓝 / 淡雾 -->
+            <article class="rw-box is-fog">
+                <a class="rw-h2" href="project-fog-city-third-psychiatric-hospital.html">Fog City Third Psychiatric Hospital</a>
+                <div class="rw-box-body">
+                    <a class="rw-thumb" href="project-fog-city-third-psychiatric-hospital.html" style="background-image:url('assets/images/fog-thumb.jpg')"></a>
+                    <div class="rw-txt">
+                        <p class="rw-meta">2.5D Games • Dreamcore • Meta</p>
+                        <p>Independent 2.5D adventure with “paper-theater” UI to keep a deliberate distance between player &amp; protagonist.</p>
+                        <div class="rw-tags"><span>2.5D</span><span>Dreamcore</span><span>Meta</span></div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container"><p>© 2025 Connor Wu</p></div></footer>
+    <div class="overlay-scan"></div><div class="overlay-noise"></div>
+    <script src="assets/main.js"></script>
+</body>
+</html>

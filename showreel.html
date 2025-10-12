@@ -57,12 +57,19 @@
                 </div>
 
                 <!-- YouTube（替换 ID），或注释掉换本地 video -->
-                <iframe class="sr-yt"
-                        src="https://youtu.be/uzDLpPI7t2k"
-                        title="Showreel" loading="lazy"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+<div class="video-embed">
+    <iframe src="https://www.youtube-nocookie.com/embed/uzDLpPI7t2k?rel=0&modestbranding=1&playsinline=1"
+            title="Showreel"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+</div>
 
+<p class="alt-link">
+    If the embedded content cannot be played,
+    <a href="https://youtu.be/uzDLpPI7t2k" target="_blank" rel="noopener">点此在 YouTube 打开 ↗</a>
+</p>
                 <!-- 本地兜底 -->
                 <!-- <video class="sr-local" src="assets/videos/showreel.mp4" poster="assets/images/showreel-poster.jpg" controls playsinline></video> -->
                 <!-- 叠加层：扫描线/噪点/水波 -->
